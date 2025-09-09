@@ -1,0 +1,39 @@
+#padre{
+    display: grid;
+    row-gap: 15px;
+    justify-content: center;
+    margin-top: 8%;
+}
+#marco1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 150px;
+}
+#marco2{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 150px;  
+}
+#marco3{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    width: 150px;
+}
+#marco4{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    width: 150px;
+}
+#titulo{
+    text-align: center;
+    transform: scale(1.5);
+    margin-top: 7%;
+}
+#boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+body{
+    background-color: rgb(139, 61, 61);
+}

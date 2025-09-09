@@ -1,0 +1,26 @@
+#contenido{
+    display: grid;
+    column-gap: 100px;
+    margin-top: 15%;
+    justify-content: center;
+}
+#marco1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 150px;
+    transform: scale(2);
+}
+#marco2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 150px;
+    transform: scale(2);
+}
+#titulo{
+    text-align: center;
+    transform: scale(1.5);
+    margin-top: 5%;
+}
+body{
+    background-color: blanchedalmond;
+}
